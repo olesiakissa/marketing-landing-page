@@ -22,6 +22,23 @@ export default {
       lg: "1200px",
       xl: "1700px",
     },
+    // Get Started button (desktop)
+    keyframes: {
+      bounce: {
+        '0%': { 
+          transform: 'translateY(-10%)',
+          'animation-timing-function': 'cubic-bezier(0.65, -0.11, 1, 1.3)' 
+        },
+        '50%': {
+          transform: 'none',
+          'animation-timing-function': 'cubic-bezier(0,0,0.2,1)'
+        },
+        '100%': { 
+          transform: 'translateY(-10%)',
+          'animation-timing-function': 'cubic-bezier(0.65, -0.11, 1, 1.3)' 
+        }
+      }
+    }
   },
   plugins: [],
 };
