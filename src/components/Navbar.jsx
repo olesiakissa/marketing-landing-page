@@ -15,7 +15,9 @@ const Navbar = () => {
     <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
       {navLinks.map((nav, index) => (
         <li key={nav.id}
-            className={`font-poppins 
+            className={`
+            hover:drop-shadow-md
+            font-poppins 
             font-normal 
             cursor-pointer
             text-[16px]

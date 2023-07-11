@@ -38,6 +38,10 @@ export default {
           'animation-timing-function': 'cubic-bezier(0.65, -0.11, 1, 1.3)' 
         }
       }
+    },
+    dropShadow: {
+      'sm': '0 20px 30px rgba(0, 246, 255, 0.1)',
+      'md': '0 20px 30px rgba(0, 246, 255, 1)'
     }
   },
   plugins: [],
