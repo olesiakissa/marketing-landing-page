@@ -1,10 +1,14 @@
-import React from 'react'
 import styles from './style'
 
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components'
+import { Billing, Business, CardDeal, 
+         Clients, CTA, Footer, 
+         Navbar, Stats, Testimonials, 
+         Hero, ButtonScrollToTop
+} from './components'
 
 const App = () => (
   <main className='bg-primary w-full overflow-hidden'>
+  <ButtonScrollToTop /> 
     {/* navbar */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
